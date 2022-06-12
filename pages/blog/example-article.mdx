@@ -1,0 +1,20 @@
+export const meta = {
+  title: "Example Article",
+  description: "This is an example article",
+  slug: "example-article",
+};
+
+{/* Content -- START */}
+
+# Example Article Header
+
+{/* Content -- END */}
+
+export default ({ children }) => (
+  <div>
+    {/* Insert Page Meta/SEO */}
+    Layout Wrapper Start
+    {children}
+    Layout Wrapper End
+  </div>
+);
